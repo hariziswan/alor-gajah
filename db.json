@@ -1,0 +1,11 @@
+{
+    "readings": [
+        {
+            "station": "AlorGajah",
+            "date": "2024-06-21",
+            "time": "0000",
+            "api": 50
+        }
+        // Add more sample data
+    ]
+}
