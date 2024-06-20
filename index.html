@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alor Gajah API Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Air Quality Data for Alor Gajah, Melaka</h1>
+    <div>
+        <label for="pickdate">Date: </label>
+        <input type="date" id="pickdate" name="pickdate" onchange="loadData()">
+    </div>
+    <div>
+        <label for="picktime">Time: </label>
+        <select name="picktime" id="picktime" onchange="loadData()">
+            <option value="0000">12:00AM</option>
+            <!-- Add other options here -->
+            <option value="2300">11:00PM</option>
+        </select>
+    </div>
+    <div id="data-output">
+        <!-- Data will be displayed here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
